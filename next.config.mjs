@@ -9,11 +9,11 @@ export default {
     
     config.plugins.push(
       new NextFederationPlugin({
-        name: 'mfe1',
+        name: 'consumer',
         filename: 'static/chunks/remoteEntry.js',
 
         remotes: {
-          mfe2: 'mfe2@http://localhost:3001/_next/static/chunks/remoteEntry.js',
+          remote: 'remote@http://localhost:3001/_next/static/chunks/remoteEntry.js',
         },
 
         shared: {
