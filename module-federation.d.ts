@@ -17,3 +17,4 @@ declare module 'remote/multiplyByTwo' {
   const multiplyByTwo: (x: number) => number;
   export default multiplyByTwo;
 }
+

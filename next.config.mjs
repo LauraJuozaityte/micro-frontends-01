@@ -14,6 +14,7 @@ export default {
 
         remotes: {
           remote: 'remote@http://localhost:3001/_next/static/chunks/remoteEntry.js',
+          shop: 'shop@http://localhost:3002/_next/static/chunks/remoteEntry.js', 
         },
 
         shared: {
